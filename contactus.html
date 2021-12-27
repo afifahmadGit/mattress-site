@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contactus.css">
+    <style>
+        nav >span::after{
+            font-size: 10px;
+            content: 'MATTRESS INDIA';
+            /* display: block; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <span class="logo">MI</span>
+        <label for="check" class="start">MORE</label>
+        <ul>
+            <li><span><a href="index.html">Home</a></span></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html" style="color: rgb(255, 255, 0); border-bottom: 2px solid rgb(255, 255, 0);">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo ex, eveniet labore nam
+                inventore rerum magni quia harum quas maxime laudantium praesentium, rem adipisci molestias quidem quos
+                nisi? Sint rem enim eligendi autem esse officiis, cupiditate iusto, nemo voluptas incidunt voluptate
+                fuga adipisci nihil libero quas laborum praesentium ipsa!</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icons"><img src="./images/place.png" alt=""></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, accusamus.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons"><img src="./images/whatsapp.png" alt=""></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>7249328035</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons"><img src="./images/mail.png" alt=""></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Afifahmadn87@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="">
+                    <h3>Send message</h3>
+                    <div class="inputbox">
+                        <input type="text" required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
